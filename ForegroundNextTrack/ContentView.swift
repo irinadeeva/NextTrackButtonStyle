@@ -18,10 +18,7 @@ struct NextTrackButtonStyle: ButtonStyle {
         value: configuration.isPressed
       )
       .background(Color.blue.opacity(configuration.isPressed ? 0.3 : 0))
-      .clipShape(
-        Circle()
-      )
-
+      .clipShape(Circle())
   }
 }
 
